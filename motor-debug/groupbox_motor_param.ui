@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GroupBox</class>
+ <widget class="QGroupBox" name="GroupBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>416</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GroupBox</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>411</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="4">
+     <widget class="QLineEdit" name="lineEdit_13"/>
+    </item>
+    <item row="7" column="4">
+     <widget class="QLineEdit" name="lineEdit_17"/>
+    </item>
+    <item row="10" column="3">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Kd</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="3">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Ki</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="label_20">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLineEdit" name="lineEdit_15"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Kp</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QLineEdit" name="lineEdit_8"/>
+    </item>
+    <item row="11" column="2">
+     <widget class="QLineEdit" name="lineEdit_10"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>Ki</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QLineEdit" name="lineEdit_9"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>位置环</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLabel" name="label_21">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="4">
+     <widget class="QLineEdit" name="lineEdit_18"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Kp</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="4">
+     <widget class="QLineEdit" name="lineEdit_19"/>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLineEdit" name="lineEdit_7"/>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLineEdit" name="lineEdit_14"/>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLineEdit" name="lineEdit_16"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+    <item row="1" column="6">
+     <widget class="QLineEdit" name="lineEdit_20"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Kp</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="4">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="1" column="7">
+     <widget class="QLabel" name="label_23">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Kd</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Kd</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="lineEdit_11"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>速度环</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Ki</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="lineEdit_12"/>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="7" column="3">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>电流环</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QLabel" name="label_22">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="QLineEdit" name="lineEdit_21"/>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLabel" name="label_24">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QLabel" name="label_25">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="QLabel" name="label_26">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QLabel" name="label_27">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="5">
+     <widget class="QLabel" name="label_28">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="5">
+     <widget class="QLabel" name="label_31">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="5">
+     <widget class="QLabel" name="label_29">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="5">
+     <widget class="QLabel" name="label_30">
+      <property name="text">
+       <string>上限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="7">
+     <widget class="QLabel" name="label_32">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="7">
+     <widget class="QLabel" name="label_33">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="7">
+     <widget class="QLabel" name="label_34">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="7">
+     <widget class="QLabel" name="label_35">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="7">
+     <widget class="QLabel" name="label_36">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="7">
+     <widget class="QLabel" name="label_37">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="7">
+     <widget class="QLabel" name="label_38">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="7">
+     <widget class="QLabel" name="label_39">
+      <property name="text">
+       <string>下限</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QLineEdit" name="lineEdit_22"/>
+    </item>
+    <item row="2" column="8">
+     <widget class="QLineEdit" name="lineEdit_23"/>
+    </item>
+    <item row="3" column="6">
+     <widget class="QLineEdit" name="lineEdit_24"/>
+    </item>
+    <item row="3" column="8">
+     <widget class="QLineEdit" name="lineEdit_25"/>
+    </item>
+    <item row="5" column="6">
+     <widget class="QLineEdit" name="lineEdit_26"/>
+    </item>
+    <item row="5" column="8">
+     <widget class="QLineEdit" name="lineEdit_27"/>
+    </item>
+    <item row="6" column="6">
+     <widget class="QLineEdit" name="lineEdit_28"/>
+    </item>
+    <item row="6" column="8">
+     <widget class="QLineEdit" name="lineEdit_29"/>
+    </item>
+    <item row="7" column="6">
+     <widget class="QLineEdit" name="lineEdit_30"/>
+    </item>
+    <item row="7" column="8">
+     <widget class="QLineEdit" name="lineEdit_31"/>
+    </item>
+    <item row="9" column="6">
+     <widget class="QLineEdit" name="lineEdit_32"/>
+    </item>
+    <item row="9" column="8">
+     <widget class="QLineEdit" name="lineEdit_33"/>
+    </item>
+    <item row="10" column="6">
+     <widget class="QLineEdit" name="lineEdit_34"/>
+    </item>
+    <item row="10" column="8">
+     <widget class="QLineEdit" name="lineEdit_35"/>
+    </item>
+    <item row="11" column="6">
+     <widget class="QLineEdit" name="lineEdit_36"/>
+    </item>
+    <item row="11" column="8">
+     <widget class="QLineEdit" name="lineEdit_37"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
