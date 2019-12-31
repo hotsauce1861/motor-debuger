@@ -23,16 +23,19 @@
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="0" column="0">
         <widget class="QTabWidget" name="tabWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
          <widget class="QWidget" name="tab">
           <attribute name="title">
            <string>Tab 1</string>
           </attribute>
           <layout class="QGridLayout" name="gridLayout">
            <item row="2" column="2">
-            <widget class="QLineEdit" name="lineEdit_2"/>
+            <widget class="QLineEdit" name="lineEdit_SendData2"/>
            </item>
            <item row="3" column="2">
-            <widget class="QLineEdit" name="lineEdit_3"/>
+            <widget class="QLineEdit" name="lineEdit_SendData3"/>
            </item>
            <item row="0" column="0" rowspan="5">
             <widget class="QGroupBox" name="groupBox">
@@ -60,12 +63,12 @@
                <widget class="QComboBox" name="comboBox_Baud">
                 <property name="maximumSize">
                  <size>
-                  <width>70</width>
+                  <width>100</width>
                   <height>16777215</height>
                  </size>
                 </property>
                 <property name="currentText">
-                 <string>9600</string>
+                 <string>1200</string>
                 </property>
                 <item>
                  <property name="text">
@@ -127,7 +130,7 @@
                <widget class="QComboBox" name="comboBox_FlowControl">
                 <property name="maximumSize">
                  <size>
-                  <width>70</width>
+                  <width>100</width>
                   <height>16777215</height>
                  </size>
                 </property>
@@ -152,7 +155,7 @@
                <widget class="QComboBox" name="comboBox_Parity">
                 <property name="maximumSize">
                  <size>
-                  <width>70</width>
+                  <width>100</width>
                   <height>16777215</height>
                  </size>
                 </property>
@@ -194,7 +197,7 @@
                <widget class="QComboBox" name="comboBox_StopBits">
                 <property name="maximumSize">
                  <size>
-                  <width>70</width>
+                  <width>100</width>
                   <height>16777215</height>
                  </size>
                 </property>
@@ -253,7 +256,7 @@
                <widget class="QComboBox" name="comboBox_Port">
                 <property name="maximumSize">
                  <size>
-                  <width>70</width>
+                  <width>100</width>
                   <height>16777215</height>
                  </size>
                 </property>
@@ -308,7 +311,7 @@
                <widget class="QComboBox" name="comboBox_Data">
                 <property name="maximumSize">
                  <size>
-                  <width>70</width>
+                  <width>100</width>
                   <height>16777215</height>
                  </size>
                 </property>
@@ -378,10 +381,10 @@
             </widget>
            </item>
            <item row="4" column="2">
-            <widget class="QLineEdit" name="lineEdit_4"/>
+            <widget class="QLineEdit" name="lineEdit_SendData4"/>
            </item>
            <item row="1" column="2">
-            <widget class="QLineEdit" name="lineEdit"/>
+            <widget class="QLineEdit" name="lineEdit_SendData1"/>
            </item>
            <item row="1" column="3">
             <widget class="QCheckBox" name="checkBox_DataFlag1">
@@ -412,7 +415,7 @@
             </widget>
            </item>
            <item row="0" column="1" colspan="3">
-            <widget class="QTextEdit" name="textEdit"/>
+            <widget class="QTextEdit" name="textEdit_RecvData"/>
            </item>
           </layout>
          </widget>
@@ -420,6 +423,7 @@
           <attribute name="title">
            <string>Tab 2</string>
           </attribute>
+          <layout class="QGridLayout" name="gridLayout_5"/>
          </widget>
         </widget>
        </item>
